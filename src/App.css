@@ -1,38 +1,180 @@
-.App {
+
+.name {
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 4vmin !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 5vmin;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  border-bottom: 8px solid rgb(211, 211, 211);
+}
+.navbar-element {
+  position: relative;
+  margin-left: 3vmin;
+  margin-right: 3vmin;
+  font-size: 3vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.navbar-element::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.05rem;
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  transform: scale(0,1);
+  transition: transform 0.3s ease;
+}
+.navbar-element:hover::after {
+  transform: scale(1,1);
+}
+
+.picture-section {
+  background-color: #FAD7A0;
+  margin-top: 2vmin;
+  padding-top: 8vmin;
+  padding-bottom: 6vmin;
+}
+
+.my-image {
+  width: 50vmin;
+  height: 50vmin;
+  display: block;
+  margin-top: 15vmin;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 5vmin;
+}
+.center {
+  text-align: center;
+}
+
+.marginTop {
+  margin-top: 5vmin;
+}
+
+.lightblue {
+  background-color: #D6EAF8;
+  padding: 10vmin;
+  padding-bottom: 11vmin;
+}
+
+.type-writer {
+  background-color: #FAD7A0;
+  width: 100%;
+  padding-bottom: 11vmin;
+}
+
+.sub-header {
+  position: relative;
+  padding-top: 20vmin;
+  margin-bottom: 10vmin;
+  border-bottom: 5px solid black;
+}
+
+.Hike-Pic {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.s {
+  height: 500px;
+}
+
+.lightred {
+  background-color: lightsalmon;
+  padding: 10vmin;
+}
+.card-bg {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vmin;
+  border-radius: 16px;
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 95%;
+  height: 375px;
+  border: 0px solid;
+  margin-bottom: 15vmin;
+}
+
+.card-bg:hover {
+  background-color: #eeeeee;
+}
+
+.card-button {
+  margin-bottom: 5vmin;
+}
+
+.card-description-bg {
+  text-align: left;
+}
+
+.card-description-bg p {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  text-align:left;
+}
+
+.font-20px {
+  font-size: 20px;
+}
+
+
+.font-25px {
+  font-size:25px;
+}
+
+.font-30px {
+  font-size:30px;
+}
+
+.padding {
+  position: relative;
+  bottom: 10px;
+}
+
+.lightgreen {
+  background-color: rgb(175, 253, 175);
+  padding: 10vmin;
+}
+
+.resume-pdf {
+  width: 100%;
+  height: 750px;
+}
+
+.lightblack {
+  background-color: #1C2833;
   color: white;
+  border-top: 10px solid #2C3E50;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
