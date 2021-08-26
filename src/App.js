@@ -92,7 +92,7 @@ function App() {
         </Col>
       </Row>
       <Row className="Row lightred">
-        <h3 id="work" className="sub-header" >Work</h3>
+        <h3 id="work" className="sub-header" >Experience</h3>
         <Col>
           <CardList list={listOne} onCardClickHandler={onCardClickHandler}/>
         </Col>

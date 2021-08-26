@@ -10,7 +10,7 @@ const NavBar = ({name}) => {
                 <Nav className ="me-auto"></Nav>
                 <Nav className="me-auto n" navbarScroll>
                     <Nav.Link href="#about" className="navbar-element">About</Nav.Link>
-                    <Nav.Link href="#work" className="navbar-element">Work</Nav.Link>
+                    <Nav.Link href="#work" className="navbar-element">Experience</Nav.Link>
                     <Nav.Link href="#resume" className="navbar-element">Resume</Nav.Link>
                 </Nav>
                 <Nav>
