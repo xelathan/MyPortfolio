@@ -15,8 +15,9 @@ import logo_cambi from './assets/logo_cambi.png'
 import music_logo from './assets/music-box-1601342-1357987.png'
 import pongIcon from './assets/pongIcon.png'
 import statesIcon from './assets/states-map.png'
-import resume from './assets/Alex-resume.pdf'
+import resume from './assets/Alex-resume-display.pdf'
 import Footer from './components/Footer';
+import opportunity_logo from './assets/opportunityknocslogoblue.png';
 
 function App() {
   const [listOne, setListOne] = useState([{
@@ -38,26 +39,38 @@ function App() {
     description: 'Developed my own customized verson of Pong with Unity. Strung together animations from scratch, animated the user interface, and created an organized workflow for the game in C# using player and manager scripts.',
     link: 'https://github.com/xelathan/Custom_Pong.git',
     flipped: false,
-  }])
-
-  const [listTwo, setListTwo] = useState([{
-    title: 'Fresh Bot',
-    image: music_logo,
-    flipped: false,
-    id: 2,
-    description: 'Created a Discord bot using Node.js and javascript that can play, stop, skip, and queue music in a list. Wrote scalable and optimized code for faster streaming.',
-    role: 'Software Engineer(Personal Project)',
-    time: 'February 2021 - April 2021',
-    link: 'https://github.com/xelathan/Fresh_Bot.git'
-  }, {
+  },
+  {
     title: 'States',
     image: statesIcon,
     flipped: false,
+    id: 5,
     role: 'IOS Developer(Personal Project)',
     time: 'October 2020 - December 2020',
     description: 'Created a native IOS Application displaying the information of a set of states. Added a search query for faster navigation. Implemented Google Maps and an additional search query to locate nearby destinations using keywords.',
     link: 'https://github.com/xelathan/States.git'
   }])
+
+  const [listTwo, setListTwo] = useState([{
+      title: 'Opportunity Knocks',
+      image: opportunity_logo,
+      id: 2,
+      flipped: false,
+      description: 'Used Object Oriented Programming in dart and APIS to add features to a flutter application. Collaborated in a tech-startup environment in teams to produce a product. Implemented a search bar that queries results from Firebase database.',
+      role: 'Software Engineer',
+      time: 'September 2021 - November 2021',
+      link: 'https://opportunityknocks.tech/'
+    },
+    {
+      title: 'Fresh Bot',
+      image: music_logo,
+      flipped: false,
+      id: 4,
+      description: 'Created a Discord bot using Node.js and javascript that can play, stop, skip, and queue music in a list. Wrote scalable and optimized code for faster streaming.',
+      role: 'Software Engineer(Personal Project)',
+      time: 'February 2021 - April 2021',
+      link: 'https://github.com/xelathan/Fresh_Bot.git'
+  },])
 
   useEffect(() => {
     Aos.init({duration: 800})

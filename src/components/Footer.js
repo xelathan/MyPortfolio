@@ -14,7 +14,7 @@ const Footer = () => {
                 <ImageButton name="github" imageSrc={faGithubSquare} href="https://github.com/xelathan"/>
                 <ImageButton name="spotify" imageSrc={faSpotify} href="https://open.spotify.com/playlist/3pPDz53sz2lh5QzwDxaeoO?si=29287b2c315f4331"/>
                 <ImageButton name="gmail" imageSrc={faEnvelope} href="mailto:alex.t.tran@gmail.com"/>
-                <ImageButton name="instagram" imageSrc={faInstagramSquare} href="https://www.instagram.com/awwwwwlex/" width="45"/>
+                <ImageButton name="instagram" imageSrc={faInstagramSquare} href="https://www.instagram.com/xela._.t/" width="45"/>
             </Col>
             <Col>
                 <ContactInfoSlot imageSrc={faMapMarkerAlt} info="Milpitas, CA"/>
