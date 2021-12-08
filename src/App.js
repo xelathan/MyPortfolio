@@ -15,7 +15,7 @@ import logo_cambi from './assets/logo_cambi.png'
 import music_logo from './assets/music-box-1601342-1357987.png'
 import pongIcon from './assets/pongIcon.png'
 import statesIcon from './assets/states-map.png'
-import resume from './assets/Alex-resume-display.pdf'
+import resume from './assets/ResumeDisplayWeb.pdf'
 import Footer from './components/Footer';
 import opportunity_logo from './assets/opportunityknocslogoblue.png';
 
